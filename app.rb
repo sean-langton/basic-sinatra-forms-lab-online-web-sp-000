@@ -6,6 +6,10 @@ class App < Sinatra::Base
     erb :newteam
   end
 
+  post '/newteam' do
+    params
+  end
+
   get '/team' do
     erb :team
   end
